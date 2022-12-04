@@ -1,299 +1,247 @@
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Marck+Script&family=Merriweather:wght@400;700&family=Montserrat&family=Nerko+One&family=Poiret+One&family=Rubik+Distressed&family=Rubik+Glitch&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Marck+Script&family=Merriweather:wght@400;700&family=Montserrat&family=Nerko+One&family=Poiret+One&family=Rubik+Distressed&family=Rubik+Glitch&family=Satisfy&display=swap");
 
-body
-{
-    margin: 3px;
-    font-family: 'Montserrat', sans-serif;
+body {
+  margin: 3px;
+  font-family: "Montserrat", sans-serif;
 }
-.announce
-{
-    padding: 10px;
-    text-align: center;
-    background-color: yellow;
-    font-size: 14px;
+.announce {
+  padding: 10px;
+  text-align: center;
+  background-color: yellow;
+  font-size: 14px;
 }
-.announce:hover
-{
-    color: gray;
+.announce:hover {
+  color: gray;
 }
-header
-{
-    height:15%;
-    background-color:#143243;
-    color: white;  
-    position: sticky;  
-    top: 0px;
-    padding: 10px;
+header {
+  height: 15%;
+  background-color: #143243;
+  color: white;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
 }
-.first
-{
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+.first {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.headLink a
-{
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
+.headLink a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
 }
-input
-{
-    height: 40px;
-    border-radius: 5px;
+input {
+  height: 40px;
+  border-radius: 5px;
 }
 
-i
-{
-    color: white;
-    padding: 10px;
+i {
+  color: white;
+  padding: 10px;
 }
-.nav a
-{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding: 2%;
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 2%;
 }
-.nav
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
 }
-.nav a:hover
-{
-    color: white;
-    border-bottom: 3px solid rgb(41, 177, 180);
-    padding-bottom: 5px;
+.nav a:hover {
+  color: white;
+  border-bottom: 3px solid rgb(41, 177, 180);
+  padding-bottom: 5px;
 }
 
-.bannerimg
-{
-    width: 100%;
-    height: 400px;
-    background-image: url("../images/wall0.jpg");
-    
+.bannerimg {
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/wall0.jpg");
 }
-.featured
-{
-    background-color: rgb(223, 221, 221);
-    padding: 100px 3%;
+.featured {
+  background-color: rgb(223, 221, 221);
+  padding: 100px 3%;
 }
-.offer
-{
-    background-color: orange;
-    position: fixed;
-    top: 60%;
-    padding: 0.5%;
-    font-weight: bolder;
-    color: white;
+.offer {
+  background-color: orange;
+  position: fixed;
+  top: 60%;
+  padding: 0.5%;
+  font-weight: bolder;
+  color: white;
 }
-h1,h2,h5
-{
-    font-family: 'Merriweather', serif;
-    /* font-family: 'Eczar', serif; */
-    /* font-weight: bolder; */
-    font-size: xx-large;
-    text-align: center;
- 
+h1,
+h2,
+h5 {
+  font-family: "Merriweather", serif;
+  /* font-family: 'Eczar', serif; */
+  /* font-weight: bolder; */
+  font-size: xx-large;
+  text-align: center;
 }
-.featContentNav
-{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.featContentNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.featNav a
-{
-    color:gray;
-    text-decoration: none;
-    font-size: small;
-
+.featNav a {
+  color: gray;
+  text-decoration: none;
+  font-size: small;
 }
-.featNav a:hover
-{
-    color: black;
+.featNav a:hover {
+  color: black;
 }
-.featNav .selected
-{
-    font-weight: bolder;
-    color: black;
-    border-bottom: 3px solid rgb(255, 213, 0);
+.featNav .selected {
+  font-weight: bolder;
+  color: black;
+  border-bottom: 3px solid rgb(255, 213, 0);
 }
-.featContent,.missionContent
-{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.featContent,
+.missionContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.featGall,.mission
-{
-    width: 18%;
-    height: 340px;
-    margin-top: 100px;
-    font-size: smaller;
+.featGall,
+.mission {
+  width: 18%;
+  height: 340px;
+  margin-top: 100px;
+  font-size: smaller;
 }
-.featGall img
-{
-    width:100%;
-    border-radius: 20px;
+.featGall img {
+  width: 100%;
+  border-radius: 20px;
 }
-.featGall img:hover
-{
-    color: red;
+.featGall img:hover {
+  color: red;
 }
-.price
-{
-    color: orange;
-    margin-right: 2%;
+.price {
+  color: orange;
+  margin-right: 2%;
 }
-.actPrice
-{
-    color: gray;
-    text-decoration: line-through;
-} 
-.imghover
-{
-    position: relative;
+.actPrice {
+  color: gray;
+  text-decoration: line-through;
 }
-.imghover button
-{
-    position: absolute;
-    top: -30px;
-    left: 20%;
+.imghover {
+  position: relative;
+}
+.imghover button {
+  position: absolute;
+  top: -30px;
+  left: 20%;
+}
+.icon {
+  background-color: rgb(24, 128, 93);
+  color: white;
+  border-radius: 100%;
+}
+.icon1 {
+  position: absolute;
+  top: -200px;
+  right: 10%;
 
+  opacity: 0;
 }
-.icon
-{
-    background-color: rgb(24, 128, 93);
-    color: white;
-    border-radius: 100%;
+.icon-sec {
+  top: -150px;
+  right: 10%;
 }
-.icon1
-{
-    
-    position: absolute;
-    top: -200px;
-    right: 10%;
-    
-    opacity: 0;
+.firstimg:hover button,
+.firstimg:hover .icon1 {
+  opacity: 1;
 }
-.icon-sec
-{
-    top: -150px;
-    right: 10%;
+.btnAll {
+  background-color: rgb(24, 128, 93);
+  color: white;
+  border-radius: 5px;
+  border: none;
 }
-.firstimg:hover button,.firstimg:hover .icon1
-{
-    opacity: 1;
+.btnAllHd {
+  opacity: 0;
 }
-.btnAll
-{
-    background-color: rgb(24, 128, 93);
-    color: white;
-    border-radius: 5px;
-    border: none;
+.arrow {
+  border-radius: 100%;
+  border: 1px solid white;
 }
-.btnAllHd
-{
-    
-    opacity: 0;
+.arrow i {
+  color: black;
 }
-.arrow 
-{
-    border-radius: 100%;
-    border: 1px solid white;
-    
+.btnAll:hover,
+.icon:hover,
+.arrow:hover {
+  background-color: orange;
 }
-.arrow i
-{
-    color: black;
+.arrow:hover i {
+  color: white;
 }
-.btnAll:hover,.icon:hover,.arrow:hover
-{
-    background-color: orange;
+.mission {
+  width: 10%;
+  height: 100%;
+  text-align: center;
 }
-.arrow:hover i
-{
-    color: white;
+.mission p,
+.mission h2 {
+  font-size: smaller;
 }
-.mission
-{
-    width: 10%;
-    height: 100%;
-    text-align: center;
+.missionDiv {
+  padding: 100px 5%;
+  height: 350px;
 }
-.mission p,.mission h2
-{
-    font-size: smaller;
+.contact {
+  background-color: lightcyan;
+  padding: 5% 35%;
 }
-.missionDiv
-{
-    padding: 100px 5%;
-    height: 350px;
+form button {
+  width: 100px;
+  height: 50px;
 }
-.contact
-{
-    background-color: lightcyan;
-    padding: 5% 30%;
+footer {
+  height: 400px;
+  background-color: #143243;
+  padding: 0% 10%;
 }
-form button
-{
-    width: 100px;
-    height: 50px;
+.footerSec {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  float: left;
 }
-footer
-{
-    
-    height: 400px;
-    background-color: #143243;
-    padding: 0% 10%;
+.foot1 {
+  height: 300px;
+  border-bottom: 1px solid white;
 }
-.footerSec
-{
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-    float: left;
-    
+.footerSec a {
+  display: block;
+  padding: 10px;
+  font-size: smaller;
+  text-decoration: none;
+  color: rgb(171, 167, 167);
 }
-.foot1
-{
-    height: 300px;
-    border-bottom: 1px solid white;
+.footerSec a:hover {
+  border-bottom: 3px solid aqua;
+  color: orange;
 }
-.footerSec a
-{
-    display: block;
-    padding: 10px;
-    font-size: smaller;
-    text-decoration: none;
-    color: rgb(171, 167, 167);
+.footerSec h5 {
+  font-size: medium;
+  color: rgb(202, 197, 197);
 }
-.footerSec a:hover
-{
-    border-bottom: 3px solid aqua;
-    color: orange;
+.copyright {
+  color: white;
+  font-size: small;
 }
-.footerSec h5
-{
-    font-size: medium;
-    color: rgb(202, 197, 197);
-}
-.copyright
-{
-    color: white;
-    font-size: small;
-}
-.foot2
-{
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
+.foot2 {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
 }
