@@ -35,6 +35,7 @@ header {
 input {
   height: 40px;
   border-radius: 5px;
+  width:60px;
 }
 
 i {
@@ -198,6 +199,9 @@ h5 {
   padding: 100px 5%;
   height: 350px;
 }
+.mission img {
+  width: 100%;
+}
 .contact {
   background-color: lightcyan;
   padding: 5% 35%;
@@ -207,7 +211,7 @@ form button {
   height: 50px;
 }
 footer {
-  height: 400px;
+  height: 700px;
   background-color: #143243;
   padding: 0% 10%;
 }
@@ -244,4 +248,8 @@ footer {
   padding: 2%;
   display: flex;
   justify-content: space-between;
+}
+.payment img
+{
+  width: 100%;
 }
